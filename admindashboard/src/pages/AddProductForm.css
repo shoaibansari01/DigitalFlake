@@ -1,0 +1,72 @@
+/* AddProductForm.css */
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+    height: 90vh;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .add-product-form h2 {
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  
+  .form-row {
+    width: 68vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .form-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-input label {
+    display: block;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -10px;
+    margin-left: 10px;
+    background-color: #fff;
+  }
+  
+  .form-input input,
+  .form-input select {
+    width: 93%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-buttons button {
+    padding: 9px 18px;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  
+  .form-buttons button:first-child {
+    background-color: #ddd;
+  }
+  
+  .form-buttons button:last-child {
+    background-color: #662671;
+    color: #fff;
+  }
+  

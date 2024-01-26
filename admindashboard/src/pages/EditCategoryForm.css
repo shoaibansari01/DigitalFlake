@@ -1,0 +1,76 @@
+.edit-category-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  height: 95vh;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.edit-category-form h2 {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.form-row {
+  width: 68vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input input,
+.form-input textarea,
+.form-input select {
+  width: 93%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.form-buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.category-table {
+  margin-top: 20px;
+}
+
+.nedit-ico,
+.delete-icon {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delete-icon {
+  color: #848484;
+  margin-left: -40px;
+}
+
+.nedit-ico {
+  color: #848484;
+}
+
+.delete-icon:hover {
+  text-decoration: underline;
+}
